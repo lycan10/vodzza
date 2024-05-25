@@ -1,0 +1,19 @@
+.quote-container{
+    background-color: white;
+    padding: 6rem 10rem;
+}
+@media screen and (max-width: 1200px) {
+    .quote-container{
+        padding: 4rem 3rem;
+    }
+}
+@media screen and (max-width: 800px) {
+    .quote-container{
+        padding: 3rem 2rem;
+    }
+}
+@media screen and (max-width: 350px) {
+    .quote-container{
+        padding: 2rem 1rem;
+    }
+}

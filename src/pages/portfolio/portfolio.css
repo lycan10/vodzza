@@ -1,0 +1,467 @@
+.portfolio{
+
+}
+.portfolio-container{
+
+
+}
+.portfolio-header{
+    background-color: black;
+    padding: 6rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-header h1{
+    font-family: var(--font-family);
+    color: white;
+    font-size: 63px;
+    margin-bottom: 1rem;
+}
+.portfolio-header p{
+    font-family: "inter";
+    color: rgb(188, 188, 188);
+    max-width: 600px;
+    font-size: 14px;
+    line-height: 1.5rem;
+    font-weight: 200px;
+    text-align: center;
+}
+.portfolio-marquee-container{
+    background-color: black;
+    padding: 0rem 0 4rem;
+ 
+
+}
+.portfolio-marquee{
+    
+}
+.services-top{
+    padding: 4rem 10rem;
+    background-color: black;
+}
+
+.portfolio-services-container{
+    background-color: black;
+    padding: 4rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.portfolio-services-title{
+    
+}
+.portfolio-services-title h3{
+    font-family: var(--font-family);
+    color: white;
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+}
+.portfolio-services-title p{
+    font-family: "inter";
+    color: white;
+    font-size: 30px;
+    margin-bottom: 1rem;
+    max-width:300px;
+    line-height: 3rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.portfolio-services-cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.portfolio-services-cards1{
+
+}
+.portfolio-services-cards2{
+}
+.portfolio-services-cards{
+
+}
+
+
+@media screen and (max-width: 1200px) {
+    .portfolio{
+
+    }
+    .portfolio-container{
+    
+    
+    }
+    .portfolio-header{
+        background-color: black;
+        padding: 5rem 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .portfolio-header h1{
+        font-family: var(--font-family);
+        color: white;
+        font-size: 53px;
+        margin-bottom: 1rem;
+    }
+    .portfolio-header p{
+        font-family: "inter";
+        color: rgb(188, 188, 188);
+        max-width: 600px;
+        font-size: 14px;
+        line-height: 1.5rem;
+        font-weight: 200px;
+        text-align: center;
+    }
+    .portfolio-marquee-container{
+        background-color: black;
+        padding: 0rem 0 4rem;
+     
+    
+    }
+    .portfolio-marquee{
+        
+    }
+    .services-top{
+        padding: 2rem 3rem;
+        background-color: black;
+    }
+    
+    .portfolio-services-container{
+        background-color: black;
+        padding: 2rem 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    
+    }
+    .portfolio-services-title{
+        
+    }
+    .portfolio-services-title h3{
+        font-family: var(--font-family);
+        color: white;
+        font-size: 16px;
+        margin-bottom: 1.5rem;
+    }
+    .portfolio-services-title p{
+        font-family: "inter";
+        color: white;
+        font-size: 30px;
+        margin-bottom: 1rem;
+        max-width:300px;
+        line-height: 3rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+    
+    .portfolio-services-cards-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+    .portfolio-services-cards1{
+    
+    }
+    .portfolio-services-cards2{
+    
+    }
+    .portfolio-services-cards{
+    
+    }
+    
+    
+    
+}
+
+@media screen and (max-width: 800px) {
+    .portfolio{
+
+    }
+    .portfolio-container{
+    
+    
+    }
+    .portfolio-header{
+        background-color: black;
+        padding: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .portfolio-header h1{
+        font-family: var(--font-family);
+        color: white;
+        font-size: 53px;
+        margin-bottom: 1rem;
+    }
+    .portfolio-header p{
+        font-family: "inter";
+        color: rgb(188, 188, 188);
+        max-width: 600px;
+        font-size: 14px;
+        line-height: 1.5rem;
+        font-weight: 200px;
+        text-align: center;
+    }
+    .portfolio-marquee-container{
+        background-color: black;
+        padding: 0rem 0 2rem;
+     
+    
+    }
+    .portfolio-marquee{
+        
+    }
+    .services-top{
+        padding: 1rem 2rem;
+        background-color: black;
+    }
+    
+    .portfolio-services-container{
+        background-color: black;
+        padding: 4rem 2rem 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    
+    }
+    .portfolio-services-title{
+        
+    }
+    .portfolio-services-title h3{
+        font-family: var(--font-family);
+        color: white;
+        font-size: 12px;
+        margin-bottom: 1.2rem;
+    }
+    .portfolio-services-title p{
+        font-family: "inter";
+        color: white;
+        font-size: 20px;
+        margin-bottom: 1rem;
+        max-width:300px;
+        line-height: 1.8rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+    
+    .portfolio-services-cards-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+    .portfolio-services-cards1{
+    
+    }
+    .portfolio-services-cards2{
+    
+    }
+    .portfolio-services-cards{
+    
+    }
+    
+    
+    
+}
+
+@media screen and (max-width: 500px) {
+    .portfolio{
+
+    }
+    .portfolio-container{
+    
+    
+    }
+    .portfolio-header{
+        background-color: black;
+        padding: 6rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .portfolio-header h1{
+        font-family: var(--font-family);
+        color: white;
+        font-size: 47px;
+        margin-bottom: 1.5rem;
+        text-align: left;
+    }
+    .portfolio-header p{
+        font-family: "inter";
+        color: rgb(188, 188, 188);
+        max-width: 600px;
+        font-size: 14px;
+        line-height: 1.5rem;
+        font-weight: 200px;
+        text-align: left;
+    }
+    .portfolio-marquee-container{
+        background-color: black;
+        padding: 0rem 0 1rem;
+     
+    
+    }
+    .portfolio-marquee{
+        
+    }
+    .services-top{
+        padding: 1rem 2rem;
+        background-color: black;
+    }
+    
+    .portfolio-services-container{
+        background-color: black;
+        padding: 3rem 2rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    
+    }
+    .portfolio-services-title{
+        
+    }
+    .portfolio-services-title h3{
+        font-family: var(--font-family);
+        color: white;
+        font-size: 13px;
+        margin-bottom: 1.2rem;
+    }
+    .portfolio-services-title p{
+        font-family: "inter";
+        color: white;
+        font-size: 20px;
+        margin-bottom: 1rem;
+        max-width:300px;
+        line-height: 1.8rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+    
+    .portfolio-services-cards-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        margin-top: 2rem;
+    }
+    .portfolio-services-cards1{
+    
+    }
+    .portfolio-services-cards2{
+    
+    }
+    .portfolio-services-cards{
+    
+    }
+    
+    
+    
+}
+@media screen and (max-width: 350px) {
+    .portfolio{
+
+    }
+    .portfolio-container{
+    
+    
+    }
+    .portfolio-header{
+        background-color: black;
+        padding: 3rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .portfolio-header h1{
+        font-family: var(--font-family);
+        color: white;
+        font-size: 38px;
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+    .portfolio-header p{
+        font-family: "inter";
+        color: rgb(188, 188, 188);
+        max-width: 600px;
+        font-size: 14px;
+        line-height: 1.5rem;
+        font-weight: 200px;
+        text-align: left;
+    }
+    .portfolio-marquee-container{
+        background-color: black;
+        padding: 0rem 0 1rem;
+     
+    
+    }
+    .portfolio-marquee{
+        
+    }
+    .services-top{
+        padding: 1rem;
+        background-color: black;
+    }
+    
+    .portfolio-services-container{
+        background-color: black;
+        padding: 3rem 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    
+    }
+    .portfolio-services-title{
+        
+    }
+    .portfolio-services-title h3{
+        font-family: var(--font-family);
+        color: white;
+        font-size: 12px;
+        margin-bottom: 1.2rem;
+    }
+    .portfolio-services-title p{
+        font-family: "inter";
+        color: white;
+        font-size: 20px;
+        margin-bottom: 1rem;
+        max-width:300px;
+        line-height: 1.8rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+    
+    .portfolio-services-cards-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        margin-top: 2rem;
+    }
+    .portfolio-services-cards1{
+    
+    }
+    .portfolio-services-cards2{
+    
+    }
+    .portfolio-services-cards{
+    
+    }
+    
+    
+    
+}

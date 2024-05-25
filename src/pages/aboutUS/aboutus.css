@@ -1,0 +1,874 @@
+.aboutus-header{
+    background-color: black;
+ 
+    padding: 0rem 10rem 4rem;
+}
+.aboutus-header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.aboutus-header img{
+    border-radius: 1rem;
+}
+.aboutus-header-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 0.75rem 0 0;
+    width: 37%;
+}
+.aboutus-header-left-top-image{
+    width: 216px;
+    height: 216px;
+    margin-bottom: 1.5rem;
+    
+}
+.aboutus-header-left-top-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.aboutus-header-left-bottom-image{
+    width: 380px;
+    height: 260px;
+}
+.aboutus-header-left-bottom-image img{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.aboutus-header-right{
+    margin: 6rem 0 0 0.75rem;
+    width: 63%;
+    height: 100%;
+
+}
+.aboutus-header-right-top-image{
+    width: 430px;
+    height: 280px;
+    margin-bottom: 1.5rem;
+}
+.aboutus-header-right-top-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.aboutus-header-right-bottom-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+.aboutus-header-right-bottom-left-image{
+    width: 374px;
+    height: 264px;
+    margin-right: 1.5rem;
+}
+.aboutus-header-right-bottom-left-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.aboutus-header-right-bottom-right-image{
+    width: 249px;
+    height: 150px;
+}
+.aboutus-header-right-bottom-right-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutus-mission-container{
+    padding: 4rem 10rem 8rem;
+    background-color: black;
+}
+.aboutus-mission{
+    border: 1px solid var(--color);
+    border-radius: 1rem;
+    background-color: var(--color);
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10rem;
+}
+.aboutus-mission h3{
+    font-family: "inter";
+    color: white;
+    font-size: 19px;
+    margin-bottom: 2rem;
+}
+.aboutus-mission p{
+    font-family: var(--font-family);
+    color: white;
+    font-size: 48px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+.aboutus-stats-main{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem 10rem 0rem;
+}
+.aboutus-stats-title{
+margin-right: 10rem;
+}
+.aboutus-stats-title h3{
+    font-family: var(--font-family);
+    color: white;
+    font-size: 19px;
+    margin-bottom: 1.5rem;
+
+}
+.aboutus-stats-title p{
+    font-family: "inter";
+    color: white;
+    font-size: 35px;
+    margin-bottom: 1rem;
+    max-width: 300px;
+    line-height: 3rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.aboutus-stats-container{
+    
+  
+}
+.aboutus-stats{
+margin-bottom: 4rem;
+}
+.aboutus-stats h1{
+    font-family: "inter";
+    color: white;
+    font-size: 55px;
+    margin-bottom: 1rem;
+    max-width: 100%;
+}
+.aboutus-stats p{
+    font-family: "inter";
+    color: white;
+    font-size: 19px;
+    margin-bottom: 1rem;
+    max-width: 100%;
+}
+.aboutus-stats span{
+    color: var(--color);
+}
+.about-marquee{
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .aboutus-header{
+        background-color: black;
+     
+        padding: 0rem 3rem 4rem;
+    }
+    .aboutus-header-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .aboutus-header img{
+        border-radius: 1rem;
+    }
+    .aboutus-header-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 0 0.75rem 0 0;
+        width: 37%;
+    }
+    .aboutus-header-left-top-image{
+        width: 180px;
+        height: 180px;
+        margin-bottom: 1rem;
+        
+    }
+    .aboutus-header-left-top-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .aboutus-header-left-bottom-image{
+        width: 330px;
+        height: 200px;
+    }
+    .aboutus-header-left-bottom-image img{ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .aboutus-header-right{
+        margin: 4rem 0 0 0.5rem;
+        width: 63%;
+        height: 100%;
+    
+    }
+    .aboutus-header-right-top-image{
+        width: 380px;
+        height: 220px;
+        margin-bottom: 1rem;
+    }
+    .aboutus-header-right-top-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .aboutus-header-right-bottom-image{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .aboutus-header-right-bottom-left-image{
+        width: 324px;
+        height: 214px;
+        margin-right: 1rem;
+    }
+    .aboutus-header-right-bottom-left-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .aboutus-header-right-bottom-right-image{
+        width: 210px;
+        height: 140px;
+    }
+    .aboutus-header-right-bottom-right-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .aboutus-mission-container{
+        padding: 3rem 3rem 6rem;
+        background-color: black;
+    }
+    .aboutus-mission{
+        border: 1px solid var(--color);
+        border-radius: 1rem;
+        background-color: var(--color);
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 7rem;
+    }
+    .aboutus-mission h3{
+        font-family: "inter";
+        color: white;
+        font-size: 15px;
+        margin-bottom: 2rem;
+    }
+    .aboutus-mission p{
+        font-family: var(--font-family);
+        color: white;
+        font-size: 40px;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-weight: bold;
+        line-height: 3.5rem;
+    }
+    .aboutus-stats-main{
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 1rem 3rem 0rem;
+    }
+    .aboutus-stats-title{
+    margin-right: 10rem;
+    }
+    .aboutus-stats-title h3{
+        font-family: var(--font-family);
+        color: white;
+        font-size: 16px;
+        margin-bottom: 1.5rem;
+    
+    }
+    .aboutus-stats-title p{
+        font-family: "inter";
+        color: white;
+        font-size: 32px;
+        margin-bottom: 1rem;
+        max-width: 300px;
+        line-height: 3rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+    .aboutus-stats-container{
+        
+      
+    }
+    .aboutus-stats{
+    margin-bottom: 4rem;
+    }
+    .aboutus-stats:last-child{
+        margin-bottom: 1rem;
+        }
+    .aboutus-stats h1{
+        font-family: "inter";
+        color: white;
+        font-size: 48px;
+        margin-bottom: 1rem;
+        max-width: 100%;
+    }
+    .aboutus-stats p{
+        font-family: "inter";
+        color: white;
+        font-size: 16px;
+        margin-bottom: 1rem;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .aboutus-header{
+        background-color: black;
+     
+        padding: 0rem 2rem 3rem;
+    }
+    .aboutus-header-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .aboutus-header img{
+        border-radius: 1rem;
+    }
+    .aboutus-header-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 0 0.75rem 0 0;
+        width: 37%;
+    }
+    .aboutus-header-left-top-image{
+        width: 150px;
+        height: 150px;
+        margin-bottom: 1rem;
+        
+    }
+    .aboutus-header-left-top-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .aboutus-header-left-bottom-image{
+        width: 270px;
+        height: 150px;
+    }
+    .aboutus-header-left-bottom-image img{ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .aboutus-header-right{
+        margin: 4rem 0 0 0.5rem;
+        width: 63%;
+        height: 100%;
+    
+    }
+    .aboutus-header-right-top-image{
+        width: 330px;
+        height: 180px;
+        margin-bottom: 1rem;
+    }
+    .aboutus-header-right-top-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .aboutus-header-right-bottom-image{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .aboutus-header-right-bottom-left-image{
+        width: 244px;
+        height: 164px;
+        margin-right: 1rem;
+    }
+    .aboutus-header-right-bottom-left-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .aboutus-header-right-bottom-right-image{
+        width: 170px;
+        height: 100px;
+    }
+    .aboutus-header-right-bottom-right-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .aboutus-mission-container{
+        padding: 3rem 2rem 4rem;
+        background-color: black;
+    }
+    .aboutus-mission{
+        border: 1px solid var(--color);
+        border-radius: 1rem;
+        background-color: var(--color);
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 3rem;
+    }
+    .aboutus-mission h3{
+        font-family: "inter";
+        color: white;
+        font-size: 14px;
+        margin-bottom: 2rem;
+    }
+    .aboutus-mission p{
+        font-family: var(--font-family);
+        color: white;
+        font-size: 38px;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-weight: bold;
+        line-height: 3rem;
+    }
+    .aboutus-stats-main{
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 1rem 2rem 0rem;
+    }
+    .aboutus-stats-title{
+    margin-right: 9rem;
+    }
+    .aboutus-stats-title h3{
+        font-family: var(--font-family);
+        color: white;
+        font-size: 14px;
+        margin-bottom: 1.5rem;
+    
+    }
+    .aboutus-stats-title p{
+        font-family: "inter";
+        color: white;
+        font-size: 25px;
+        margin-bottom: 1rem;
+        max-width: 200px;
+        line-height: 2.5rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+    .aboutus-stats-container{
+        
+      
+    }
+    .aboutus-stats{
+    margin-bottom: 4rem;
+    }
+    .aboutus-stats:last-child{
+        margin-bottom: 1rem;
+        }
+    .aboutus-stats h1{
+        font-family: "inter";
+        color: white;
+        font-size: 33px;
+        margin-bottom: 1rem;
+        max-width: 100%;
+    }
+    .aboutus-stats p{
+        font-family: "inter";
+        color: white;
+        font-size: 14px;
+        margin-bottom: 1rem;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .aboutus-header{
+        background-color: black;
+     
+        padding: 0rem 1rem 0rem;
+    }
+    .aboutus-header-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        display: none;
+    }
+    .about-marquee{
+        display: block;
+    }
+    .aboutus-header img{
+        border-radius: 1rem;
+    }
+    .aboutus-header-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 0 0.75rem 0 0;
+        width: 37%;
+    }
+    .aboutus-header-left-top-image{
+        width: 150px;
+        height: 150px;
+        margin-bottom: 1rem;
+        
+    }
+    .aboutus-header-left-top-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .aboutus-header-left-bottom-image{
+        width: 270px;
+        height: 150px;
+    }
+    .aboutus-header-left-bottom-image img{ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .aboutus-header-right{
+        margin: 4rem 0 0 0.5rem;
+        width: 63%;
+        height: 100%;
+    
+    }
+    .aboutus-header-right-top-image{
+        width: 330px;
+        height: 180px;
+        margin-bottom: 1rem;
+    }
+    .aboutus-header-right-top-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .aboutus-header-right-bottom-image{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .aboutus-header-right-bottom-left-image{
+        width: 244px;
+        height: 164px;
+        margin-right: 1rem;
+    }
+    .aboutus-header-right-bottom-left-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .aboutus-header-right-bottom-right-image{
+        width: 170px;
+        height: 100px;
+    }
+    .aboutus-header-right-bottom-right-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .aboutus-mission-container{
+        padding: 3rem 2rem 3rem;
+        background-color: black;
+    }
+    .aboutus-mission{
+        border: 1px solid var(--color);
+        border-radius: 1rem;
+        background-color: var(--color);
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+    }
+    .aboutus-mission h3{
+        font-family: "inter";
+        color: white;
+        font-size: 14px;
+        margin-bottom: 1.5rem;
+    }
+    .aboutus-mission p{
+        font-family: var(--font-family);
+        color: white;
+        font-size: 23px;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-weight: bold;
+        line-height: 2rem;
+    }
+    .aboutus-stats-main{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 2rem 0rem;
+    }
+    .aboutus-stats-title{
+    margin-right: 0;
+    margin-bottom: 4rem;
+    }
+    .aboutus-stats-title h3{
+        font-family: var(--font-family);
+        color: white;
+        font-size: 14px;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    
+    }
+    .aboutus-stats-title p{
+        font-family: "inter";
+        color: white;
+        font-size: 33px;
+        margin-bottom: 1rem;
+        max-width: 260px;
+        line-height: 3rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .aboutus-stats-container{
+        
+      
+    }
+    .aboutus-stats{
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .aboutus-stats:last-child{
+        margin-bottom: 1rem;
+        }
+    .aboutus-stats h1{
+        font-family: "inter";
+        color: white;
+        font-size: 33px;
+        margin-bottom: 1rem;
+        max-width: 100%;
+        text-align: center;
+    }
+    .aboutus-stats p{
+        font-family: "inter";
+        color: white;
+        font-size: 14px;
+        margin-bottom: 1rem;
+        max-width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 350px) {
+    .aboutus-header{
+        background-color: black;
+     
+        padding: 0rem 1rem 0rem;
+    }
+    .aboutus-header-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        display: none;
+    }
+    .about-marquee{
+        display: block;
+    }
+    .aboutus-header img{
+        border-radius: 1rem;
+    }
+    .aboutus-header-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 0 0.75rem 0 0;
+        width: 37%;
+    }
+    .aboutus-header-left-top-image{
+        width: 150px;
+        height: 150px;
+        margin-bottom: 1rem;
+        
+    }
+    .aboutus-header-left-top-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .aboutus-header-left-bottom-image{
+        width: 270px;
+        height: 150px;
+    }
+    .aboutus-header-left-bottom-image img{ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .aboutus-header-right{
+        margin: 4rem 0 0 0.5rem;
+        width: 63%;
+        height: 100%;
+    
+    }
+    .aboutus-header-right-top-image{
+        width: 330px;
+        height: 180px;
+        margin-bottom: 1rem;
+    }
+    .aboutus-header-right-top-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .aboutus-header-right-bottom-image{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .aboutus-header-right-bottom-left-image{
+        width: 244px;
+        height: 164px;
+        margin-right: 1rem;
+    }
+    .aboutus-header-right-bottom-left-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .aboutus-header-right-bottom-right-image{
+        width: 170px;
+        height: 100px;
+    }
+    .aboutus-header-right-bottom-right-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .aboutus-mission-container{
+        padding: 3rem 1rem 3rem;
+        background-color: black;
+    }
+    .aboutus-mission{
+        border: 1px solid var(--color);
+        border-radius: 1rem;
+        background-color: var(--color);
+        height: 275px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+    }
+    .aboutus-mission h3{
+        font-family: "inter";
+        color: white;
+        font-size: 12px;
+        margin-bottom: 1.5rem;
+    }
+    .aboutus-mission p{
+        font-family: var(--font-family);
+        color: white;
+        font-size: 19px;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-weight: bold;
+        line-height: 2rem;
+    }
+    .aboutus-stats-main{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 2rem 0rem;
+    }
+    .aboutus-stats-title{
+    margin-right: 0;
+    margin-bottom: 3rem;
+    }
+    .aboutus-stats-title h3{
+        font-family: var(--font-family);
+        color: white;
+        font-size: 12px;
+        margin-bottom: 1.5rem;
+        text-align: center;
+     
+    
+    }
+    .aboutus-stats-title p{
+        font-family: "inter";
+        color: white;
+        font-size: 27px;
+        margin-bottom: 1rem;
+        max-width: 180px;
+        line-height: 2.5rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .aboutus-stats-container{
+        
+      
+    }
+    .aboutus-stats{
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .aboutus-stats:last-child{
+        margin-bottom: 1rem;
+        }
+    .aboutus-stats h1{
+        font-family: "inter";
+        color: white;
+        font-size: 33px;
+        margin-bottom: 1rem;
+        max-width: 100%;
+        text-align: center;
+    }
+    .aboutus-stats p{
+        font-family: "inter";
+        color: white;
+        font-size: 14px;
+        margin-bottom: 1rem;
+        max-width: 100%;
+    }
+}

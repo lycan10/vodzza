@@ -1,0 +1,119 @@
+.portfolio-marquee{
+    margin: 0 0.65rem;
+}
+.portfolio-marquee img{
+    width: 320px;
+    height: 230px;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+.portfolio-marquee-title-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+}
+.portfolio-marquee-title-container h1{
+    font-family: var(--font-family);
+    color: white;
+    font-size: 19px;
+    margin-bottom: 0rem;
+}
+.portfolio-marquee-title{
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 0.7rem 0.7rem;
+    margin-left: 1rem;
+}
+.portfolio-marquee-title p{
+    font-family: "inter";
+    color: rgb(188, 188, 188);
+    font-size: 14px;
+    line-height: 0;
+    font-weight: 200px;
+    text-align: center;
+    margin: 0;
+  
+}
+
+@media screen and (max-width: 1200px ) {
+    .portfolio-marquee{
+        margin: 0 0.65rem;
+    }
+    .portfolio-marquee img{
+        width: 250px;
+        height: 180px;
+        border-radius: 0.5rem;
+        object-fit: cover;
+    }
+    .portfolio-marquee-title-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .portfolio-marquee-title-container h1{
+        font-family: var(--font-family);
+        color: white;
+        font-size: 19px;
+        margin-bottom: 0rem;
+    }
+    .portfolio-marquee-title{
+        border: 1px solid white;
+        border-radius: 1rem;
+        padding: 0.7rem 0.7rem;
+        margin-left: 1rem;
+    }
+    .portfolio-marquee-title p{
+        font-family: "inter";
+        color: rgb(188, 188, 188);
+        font-size: 14px;
+        line-height: 0;
+        font-weight: 200px;
+        text-align: center;
+        margin: 0;
+      
+    }
+}
+@media screen and (max-width: 500px ) {
+    .portfolio-marquee{
+        margin: 0 0.4rem;
+    }
+    .portfolio-marquee img{
+        width: 230px;
+        height: 150px;
+        border-radius: 0.5rem;
+        object-fit: cover;
+    }
+    .portfolio-marquee-title-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .portfolio-marquee-title-container h1{
+        font-family: var(--font-family);
+        color: white;
+        font-size: 16px;
+        margin-bottom: 0rem;
+    }
+    .portfolio-marquee-title{
+        border: 1px solid white;
+        border-radius: 1rem;
+        padding: 0.7rem 0.7rem;
+        margin-left: 1rem;
+    }
+    .portfolio-marquee-title p{
+        font-family: "inter";
+        color: rgb(188, 188, 188);
+        font-size: 14px;
+        line-height: 0;
+        font-weight: 200px;
+        text-align: center;
+        margin: 0;
+      
+    }
+}
