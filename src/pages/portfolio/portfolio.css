@@ -15,60 +15,95 @@
 }
 .portfolio-header h1{
     font-family: var(--font-family);
-    color: white;
-    font-size: 63px;
-    margin-bottom: 1rem;
+    color: var(--color);
+    font-size: 53px;
+    margin-bottom: 2.5rem;
+    text-align: center;
 }
 .portfolio-header p{
     font-family: "inter";
     color: rgb(188, 188, 188);
     max-width: 600px;
-    font-size: 14px;
-    line-height: 1.5rem;
+    font-size: 16px;
+    line-height: 2rem;
     font-weight: 200px;
     text-align: center;
 }
 .portfolio-marquee-container{
     background-color: black;
-    padding: 0rem 0 4rem;
- 
+    padding: 0rem 0 6rem;
 
 }
 .portfolio-marquee{
     
 }
-.services-top{
-    padding: 4rem 10rem;
+.portfolio-services{
+    padding: 4rem 0 1rem;
     background-color: black;
+}
+.services-top{
+    padding: 0rem 10rem;
+    background-color: black;
+}
+.services-bottom{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+
+.iframe-container{
+    width: 100%;
+    height: 750px;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+.iframe-container iframe{
+    
+    border-radius: 0.5rem;
 }
 
 .portfolio-services-container{
-    background-color: black;
-    padding: 4rem 10rem;
+    background-color: white;
+    padding: 2rem 10rem 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    overflow: hidden;
 
 }
+
+
+.portfolio-services-title,
+.portfolio-services-cards1,
+.portfolio-services-cards2 {
+  position: relative;
+}
+
 .portfolio-services-title{
-    
+    overflow: hidden;
+    padding: 4rem 0 0;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+
 }
 .portfolio-services-title h3{
     font-family: var(--font-family);
-    color: white;
+    color: var(--color);
     font-size: 16px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0;
 }
 .portfolio-services-title p{
     font-family: "inter";
-    color: white;
-    font-size: 30px;
-    margin-bottom: 1rem;
-    max-width:300px;
-    line-height: 3rem;
-    font-weight: 500;
-    letter-spacing: 1px;
+    color: black;
+    font-size: 33px;
+    max-width: 350px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    line-height: 2.7rem;
 }
 
 .portfolio-services-cards-container{
@@ -76,18 +111,25 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-start;
+    margin-top: 4rem;
+    height: 1150px;
 }
+
 .portfolio-services-cards1{
 
 }
 .portfolio-services-cards2{
 }
 .portfolio-services-cards{
-
+   
 }
 
+.Mobile-portfolio{
+    display: none;
+}
 
 @media screen and (max-width: 1200px) {
+  
     .portfolio{
 
     }
@@ -105,9 +147,8 @@
     }
     .portfolio-header h1{
         font-family: var(--font-family);
-        color: white;
-        font-size: 53px;
-        margin-bottom: 1rem;
+        font-size: 48px;
+        margin-bottom: 1.5rem;
     }
     .portfolio-header p{
         font-family: "inter";
@@ -119,7 +160,6 @@
         text-align: center;
     }
     .portfolio-marquee-container{
-        background-color: black;
         padding: 0rem 0 4rem;
      
     
@@ -133,8 +173,7 @@
     }
     
     .portfolio-services-container{
-        background-color: black;
-        padding: 2rem 3rem;
+        padding: 0rem 3rem 3rem;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -142,23 +181,20 @@
     
     }
     .portfolio-services-title{
-        
     }
     .portfolio-services-title h3{
         font-family: var(--font-family);
-        color: white;
         font-size: 16px;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
+        color: var(--color);
     }
     .portfolio-services-title p{
         font-family: "inter";
-        color: white;
-        font-size: 30px;
+        font-size: 27px;
         margin-bottom: 1rem;
-        max-width:300px;
-        line-height: 3rem;
-        font-weight: 500;
-        letter-spacing: 1px;
+        max-width: 300px;
+        line-height: 2.4rem;
+        font-weight: 800;
     }
     
     .portfolio-services-cards-container{
@@ -166,6 +202,7 @@
         flex-direction: row;
         justify-content: flex-end;
         align-items: flex-start;
+        height: 1250px;
     }
     .portfolio-services-cards1{
     
@@ -176,12 +213,17 @@
     .portfolio-services-cards{
     
     }
-    
+    .Mobile-portfolio{
+        display: none;
+    }
     
     
 }
 
 @media screen and (max-width: 800px) {
+    .Mobile-portfolio{
+        display: none;
+    }
     .portfolio{
 
     }
@@ -199,22 +241,22 @@
     }
     .portfolio-header h1{
         font-family: var(--font-family);
-        color: white;
-        font-size: 53px;
-        margin-bottom: 1rem;
+        font-size: 37px;
+        font-weight: 600;
+        margin-bottom: 2rem;
     }
     .portfolio-header p{
         font-family: "inter";
         color: rgb(188, 188, 188);
         max-width: 600px;
         font-size: 14px;
-        line-height: 1.5rem;
+        line-height: 2rem;
         font-weight: 200px;
         text-align: center;
     }
     .portfolio-marquee-container{
         background-color: black;
-        padding: 0rem 0 2rem;
+        padding: 0rem 0 4rem;
      
     
     }
@@ -227,8 +269,7 @@
     }
     
     .portfolio-services-container{
-        background-color: black;
-        padding: 4rem 2rem 3rem;
+        padding: 0rem 2rem;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -240,19 +281,15 @@
     }
     .portfolio-services-title h3{
         font-family: var(--font-family);
-        color: white;
         font-size: 12px;
-        margin-bottom: 1.2rem;
+        margin-bottom: 1rem;
     }
     .portfolio-services-title p{
         font-family: "inter";
-        color: white;
-        font-size: 20px;
+        font-size: 21px;
         margin-bottom: 1rem;
-        max-width:300px;
+        max-width: 270px;
         line-height: 1.8rem;
-        font-weight: 500;
-        letter-spacing: 1px;
     }
     
     .portfolio-services-cards-container{
@@ -260,6 +297,7 @@
         flex-direction: row;
         justify-content: flex-end;
         align-items: flex-start;
+        height: 1200px;
     }
     .portfolio-services-cards1{
     
@@ -271,7 +309,24 @@
     
     }
     
+    .services-bottom{
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 30px;
+    }
     
+    .iframe-container{
+        width: 100%;
+        height: 600px;
+        border-radius: 0.5rem;
+        object-fit: cover;
+        margin-bottom: 1rem;
+    }
+    .Mobile-portfolio{
+        display: none;
+    }
+ 
     
 }
 
@@ -283,9 +338,19 @@
     
     
     }
+    .iframe-container{
+        width: 100%;
+        height: 450px;
+        border-radius: 0.5rem;
+        object-fit: cover;
+        margin-bottom: 1rem;
+    }
+    .frame-mobile iframe{
+        height: 300px;
+    }
     .portfolio-header{
         background-color: black;
-        padding: 6rem 2rem;
+        padding: 5rem 2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -293,23 +358,26 @@
     }
     .portfolio-header h1{
         font-family: var(--font-family);
-        color: white;
-        font-size: 47px;
-        margin-bottom: 1.5rem;
-        text-align: left;
+        font-size: 34px;
+        line-height: 3.5rem;
+        font-weight: 600;
+        max-width: 100%;
+        margin-bottom: 0rem;
+        text-align: center;
     }
     .portfolio-header p{
+        display: none;
         font-family: "inter";
         color: rgb(188, 188, 188);
-        max-width: 600px;
+        max-width: 100%;
         font-size: 14px;
         line-height: 1.5rem;
         font-weight: 200px;
-        text-align: left;
+        text-align: center;
     }
     .portfolio-marquee-container{
         background-color: black;
-        padding: 0rem 0 1rem;
+        padding: 0rem 0 4rem;
      
     
     }
@@ -317,45 +385,52 @@
         
     }
     .services-top{
-        padding: 1rem 2rem;
+        padding: 1rem 1rem;
         background-color: black;
     }
-    
-    .portfolio-services-container{
-        background-color: black;
-        padding: 3rem 2rem 1rem;
+    .Mobile-portfolio{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+    }
+     .portfolio-services-container{
+        padding: 0rem 1rem 2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
+
     
     }
     .portfolio-services-title{
-        
+        padding-top: 3rem;
     }
-    .portfolio-services-title h3{
+    .Mobile-portfolio .portfolio-services-title h3{
         font-family: var(--font-family);
-        color: white;
-        font-size: 13px;
+        font-size: 16px;
         margin-bottom: 1.2rem;
+        text-align: center;
     }
-    .portfolio-services-title p{
+    .Mobile-portfolio .portfolio-services-title p{
         font-family: "inter";
-        color: white;
-        font-size: 20px;
+        font-size: 27px;
         margin-bottom: 1rem;
-        max-width:300px;
-        line-height: 1.8rem;
-        font-weight: 500;
-        letter-spacing: 1px;
+        max-width: 100%;
+        font-weight: 800;
+        line-height: 2.4rem;
+        letter-spacing: 0px !important;
+        text-align: center;
     }
     
-    .portfolio-services-cards-container{
+    .Mobile-portfolio .portfolio-services-cards-container{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: flex-start;
         margin-top: 2rem;
+        height: 2350px;
     }
     .portfolio-services-cards1{
     
@@ -367,7 +442,14 @@
     
     }
     
-    
+    .Mobile-portfolio{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .desktop-portfolio{
+        display: none;
+    }
     
 }
 @media screen and (max-width: 350px) {
@@ -379,7 +461,6 @@
     
     }
     .portfolio-header{
-        background-color: black;
         padding: 3rem 1rem;
         display: flex;
         flex-direction: column;
@@ -388,10 +469,9 @@
     }
     .portfolio-header h1{
         font-family: var(--font-family);
-        color: white;
-        font-size: 38px;
+        font-size: 33px;
         margin-bottom: 1rem;
-        text-align: left;
+        line-height: 3rem;
     }
     .portfolio-header p{
         font-family: "inter";
@@ -400,11 +480,9 @@
         font-size: 14px;
         line-height: 1.5rem;
         font-weight: 200px;
-        text-align: left;
     }
     .portfolio-marquee-container{
-        background-color: black;
-        padding: 0rem 0 1rem;
+        padding: 0rem 0 3rem;
      
     
     }
@@ -417,32 +495,29 @@
     }
     
     .portfolio-services-container{
-        background-color: black;
         padding: 3rem 1rem 1rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
+     
     
     }
     .portfolio-services-title{
-        
+        padding-top: 0rem;
     }
     .portfolio-services-title h3{
         font-family: var(--font-family);
-        color: white;
         font-size: 12px;
         margin-bottom: 1.2rem;
     }
     .portfolio-services-title p{
         font-family: "inter";
-        color: white;
-        font-size: 20px;
+        font-size: 27px !important;
         margin-bottom: 1rem;
-        max-width:300px;
-        line-height: 1.8rem;
-        font-weight: 500;
-        letter-spacing: 1px;
+        line-height: 2.2rem !important;
+        font-weight: 800 !important;
+        letter-spacing: 0px !important;
     }
     
     .portfolio-services-cards-container{
@@ -450,7 +525,7 @@
         flex-direction: column;
         justify-content: flex-end;
         align-items: flex-start;
-        margin-top: 2rem;
+        margin-top: 0rem;
     }
     .portfolio-services-cards1{
     
@@ -461,7 +536,14 @@
     .portfolio-services-cards{
     
     }
-    
+    .Mobile-portfolio{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .desktop-portfolio{
+        display: none;
+    }
     
     
 }

@@ -16,19 +16,19 @@
 }
 .portfolio-marquee-title-container h1{
     font-family: var(--font-family);
-    color: white;
+    color: var(--color);
     font-size: 19px;
     margin-bottom: 0rem;
 }
 .portfolio-marquee-title{
-    border: 1px solid white;
+    border: 1px solid var(--color);
     border-radius: 1rem;
     padding: 0.7rem 0.7rem;
-    margin-left: 1rem;
+    margin-left: 0.75rem;
 }
 .portfolio-marquee-title p{
     font-family: "inter";
-    color: rgb(188, 188, 188);
+    color: var(--color);
     font-size: 14px;
     line-height: 0;
     font-weight: 200px;
@@ -56,19 +56,15 @@
     }
     .portfolio-marquee-title-container h1{
         font-family: var(--font-family);
-        color: white;
         font-size: 19px;
         margin-bottom: 0rem;
     }
     .portfolio-marquee-title{
-        border: 1px solid white;
         border-radius: 1rem;
         padding: 0.7rem 0.7rem;
-        margin-left: 1rem;
     }
     .portfolio-marquee-title p{
         font-family: "inter";
-        color: rgb(188, 188, 188);
         font-size: 14px;
         line-height: 0;
         font-weight: 200px;
@@ -96,20 +92,16 @@
     }
     .portfolio-marquee-title-container h1{
         font-family: var(--font-family);
-        color: white;
         font-size: 16px;
         margin-bottom: 0rem;
     }
     .portfolio-marquee-title{
-        border: 1px solid white;
         border-radius: 1rem;
         padding: 0.7rem 0.7rem;
-        margin-left: 1rem;
     }
     .portfolio-marquee-title p{
         font-family: "inter";
-        color: rgb(188, 188, 188);
-        font-size: 14px;
+        font-size: 12px;
         line-height: 0;
         font-weight: 200px;
         text-align: center;

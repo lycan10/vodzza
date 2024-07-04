@@ -1,15 +1,17 @@
 .reviews{
-
+  
 }
 .review-container{
     padding: 6rem 10rem;
-    background-color: black;
-    height: 650px;
+    background-color: white;
+    height: 600px;
+    border-radius: 1rem;
 }
   
   .swiper {
     width: 100%;
     height: 100%;
+    border-radius: 1rem;
   }
   .swiper-pagination-bullet-active {
     background-color: white !important;
@@ -21,7 +23,6 @@
     background: var(--color);
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  
     /* Center slide text vertically */
     display: flex;
     justify-content: center;
@@ -37,8 +38,8 @@
   
   .autoplay-progress {
     position: absolute;
-    right: 16px;
-    bottom: 16px;
+    right: 3.5rem;
+    bottom: 2.5rem;
     z-index: 10;
     width: 48px;
     height: 48px;
@@ -69,7 +70,7 @@
 .reviews-content-card{
     width: 100%;
     height: 100%;
-    padding: 4rem 6rem;
+    padding: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -78,10 +79,10 @@
 .reviews-content-card h1{
     font-family: var(--font-family);
     color: white;
-    font-size: 29px;
+    font-size: 21px;
     margin-bottom: 1rem;
     text-align: left;
-    line-height: 2.5rem;
+    line-height: 2.3rem;
 }
 .reviews-content-author{
 
@@ -89,9 +90,9 @@
 .reviews-content-author h1{
     font-family: "inter";
     color: white;
-    font-size: 19px;
+    font-size: 18px;
     margin-bottom: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0;
 }
 .reviews-content-author-title{
@@ -103,9 +104,9 @@
 .reviews-content-author-title h3{
     font-family: "inter";
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0;
 }
 .reviews-content-author-title div{
@@ -115,6 +116,14 @@
     background-color: white;
     margin: 0 0.8rem;
 }
+.swiper-pagination-bullet {
+  width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 8px));
+  height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 8px));
+  display: inline-block;
+  border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+  background: black;
+  opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
+}
 
 @media screen and (max-width: 1200px) {
   .reviews{
@@ -122,7 +131,6 @@
   }
   .review-container{
       padding: 6rem 3rem;
-      background-color: black;
       height: 650px;
   }
     
@@ -241,7 +249,6 @@
   }
   .review-container{
       padding: 5rem 2rem;
-      background-color: black;
       height: 550px;
   }
     
@@ -357,8 +364,7 @@
 
   }
   .review-container{
-      padding: 3rem 2rem;
-      background-color: black;
+      padding: 2rem 1rem;
       height: 430px;
   }
     
@@ -475,7 +481,6 @@
   }
   .review-container{
       padding: 2rem 1rem;
-      background-color: black;
       height: 320px;
   }
     

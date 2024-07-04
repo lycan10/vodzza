@@ -38,18 +38,19 @@ const Reviews = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-            <div className='reviews-content-card'>
-                <h1>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."</h1>
-                <div className="reviews-content-author">
-                    <h1>Rema Odunpo</h1>
-                    <div className="reviews-content-author-title">
-                        <h3>Ceo</h3>
-                        <div> </div>
-                        <h3>Google</h3>
-                    </div>
-                </div>
-            </div>
-            </SwiperSlide>
+          <div className='reviews-content-card'>
+              <h1>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."</h1>
+              <div className="reviews-content-author">
+                  <h1>Rema Odunpo</h1>
+                  <div className="reviews-content-author-title">
+                      <h3>Ceo</h3>
+                    <div> </div>
+                    <h3>Google</h3>
+                  </div>
+              </div>
+          </div>
+        </SwiperSlide>
+
             <SwiperSlide>
             <div className='reviews-content-card'>
                 <h1>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."</h1>

@@ -4,19 +4,20 @@
 .header-contatiner{
     /* background-color: rgb(28, 28, 28); */
     background-color: black;
-    padding: 4rem 10rem;
+    padding: 4rem 10rem 6rem;
 }
 .header-top{
 
 }
 .header-top-text{
-    padding: 7rem 0;
+    padding: 5rem 0 7rem;
 }
 .header-top-text h1{
     font-family: var(--font-family);
     color: white;
     font-size: 63px;
-    margin-bottom: 1rem;
+    line-height: 5.5rem;
+    margin-bottom: 1.5rem;
 
 }.header-top-text p{
     font-family: "inter";
@@ -57,16 +58,17 @@
     .header-contatiner{
         /* background-color: rgb(28, 28, 28); */
         background-color: black;
-        padding: 4rem 3rem;
+        padding: 3rem 3rem 5rem;
     }
     .header-top-text{
-        padding: 7rem 0;
+        padding: 3rem 0 5rem;
     }
     .header-top-text h1{
         font-family: var(--font-family);
         color: white;
         font-size: 57px;
-        margin-bottom: 1rem;
+        line-height: 4.5rem;
+        margin-bottom: 1.5rem;
     
     }.header-top-text p{
         font-family: "inter";
@@ -109,7 +111,7 @@
     .header-contatiner{
         /* background-color: rgb(28, 28, 28); */
         background-color: black;
-        padding: 4rem 2rem;
+        padding: 3rem 2rem 4rem;
     }
     .header-top-text{
         padding: 2rem 0 3rem;
@@ -118,7 +120,8 @@
         font-family: var(--font-family);
         color: white;
         font-size: 47px;
-        margin-bottom: 1rem;
+        line-height: 4rem;
+        margin-bottom: 1.5rem;
     
     }.header-top-text p{
         font-family: "inter";
@@ -161,7 +164,7 @@
     .header-contatiner{
         /* background-color: rgb(28, 28, 28); */
         background-color: black;
-        padding: 1rem 2rem 3rem;
+        padding: 1rem 1rem 4rem;
     }
     .header-top-text{
         padding: 2rem 0 3rem;
@@ -169,8 +172,9 @@
     .header-top-text h1{
         font-family: var(--font-family);
         color: white;
-        font-size: 33px;
-        margin-bottom: 1rem;
+        font-size: 37px;
+        line-height: 3.5rem;
+        margin-bottom: 1.5rem;
     
     }
     .header-top-text p{
@@ -178,7 +182,7 @@
         color: rgb(188, 188, 188);
         max-width: 600px;
         font-size: 14px;
-        line-height: 1.3rem;
+        line-height: 1.4rem;
         font-weight: 200px;
     }
     .header-top-text span{
@@ -193,7 +197,7 @@
         color: rgb(188, 188, 188);
         max-width: 600px;
         font-size: 14px;
-        line-height: 1.2rem;
+        line-height: 1.4rem;
         font-weight: 200px;
     }
     .header-bottom span{

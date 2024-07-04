@@ -3,22 +3,22 @@ import icon from "../../assets/a1.jpg"
 
 import "./portfoliocards.css"
 
-const PortfolioCards = () => {
+const PortfolioCards = ({title, img, body, header}) => {
   return (
     <div className='portfolio-card '>
     <div className='portfolio-card-container'>
-        <img src={icon} alt="" />
+        <img src={img} alt="" />
         <div className="portfolio-card-title-container">
-            <h1>Total Trailer</h1>
+            <h1>{header}</h1>
             <div className="portfolio-card-title">
-                <p>saas</p>
+                <p>{title}</p>
             </div>
         </div>
         <div className="portfolio-card-description">
-            <p>Real-time employee feedback, direct from the micro-kitchen</p>
+            <p>{body}</p>
         </div>
     </div>
-    <div className="portfolio-card-container2-main">
+    {/* <div className="portfolio-card-container2-main">
     <div className='portfolio-card-container smaller-img'>
         <img src={icon} alt="" />
         <div className="portfolio-card-title-container">
@@ -43,7 +43,7 @@ const PortfolioCards = () => {
             <p>Real-time employee feedback, direct from the micro-kitchen</p>
         </div>
     </div>
-    </div>
+    </div> */}
    
     </div>
   )

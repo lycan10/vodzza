@@ -1,18 +1,20 @@
 import React from 'react'
 import "./cta.css"
 import { AiOutlineMail } from "react-icons/ai";
-import { PiBuildingOfficeThin } from "react-icons/pi";
+import { BsFillBuildingsFill } from "react-icons/bs";
+import { TbTransactionDollar } from "react-icons/tb";
+
 
 const CTA = () => {
   return (
     <div className='cta'>
         <div className="cta-container">
-        <div className="home-about-title">
-                <h1>Let's Connect</h1>
-                <p style={{color: "white"}} className='cta-title'>Across product strategy, UI/UX design, and end-to-end development, we craft the team and project to your needs.</p>
+        <div className="cta-form-title">
+                <h1>Get a quote </h1>
+                <p style={{color: ""}} className='cta-title'>Across product strategy, UI/UX design, and end-to-end development, we craft the team and project to your needs.</p>
             </div>
             <div className="cta-form-container">
-                <div className="form-left">
+            <div className="form-left">
                     <div className="form-left-input">
                         <input type="text" placeholder='First Name'/>
                     </div>
@@ -21,11 +23,15 @@ const CTA = () => {
                     </div>
                     <div className="form-left-input stuff">
                     <AiOutlineMail className='form-icon' />
-                        <input type="text" placeholder='First Name'/>
+                        <input type="email" placeholder='Email'/>
                     </div>
                     <div className="form-left-input stuff">
-                    <PiBuildingOfficeThin className='form-icon' />
-                        <input type="text" placeholder='First Name'/>
+                    <BsFillBuildingsFill className='form-icon' />
+                        <input type="text" placeholder='Company name'/>
+                    </div>
+                    <div className="form-left-input stuff">
+                    <TbTransactionDollar className='form-icon' />
+                        <input type="text" placeholder='Budget'/>
                     </div>
                 </div>
                 <div className="form-right">

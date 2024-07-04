@@ -2,7 +2,7 @@
 
 }
 .footer-container{
-    background-color: black;
+    background-color: var(--color);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -41,9 +41,9 @@
 .footer-right p{
     font-family: "inter";
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0;
 }
 
@@ -52,7 +52,6 @@
 
     }
     .footer-container{
-        background-color: black;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -103,7 +102,6 @@
 
     }
     .footer-container{
-        background-color: black;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -156,7 +154,6 @@
 
     }
     .footer-container{
-        background-color: black;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -176,12 +173,12 @@
         grid-template-columns: 1fr 1fr 1fr ;
         column-gap: 30px;
         margin-left: 0rem;
-        margin: 2rem 0;
+        margin: 1rem 0 0.5rem;
     }
     .footer-socials{
         border: 1px solid white;
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
         border-radius: 100%;
         display: flex;
         flex-direction: column;

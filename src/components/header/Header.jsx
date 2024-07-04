@@ -10,8 +10,9 @@ const Header = () => {
         <div className="header-contatiner">
             <div className="header-top">
                 <div className="header-top-text">
-                    <h1>Let's build <br /> the future together <span>.</span> </h1>
-                    <p>Vodzza is a team of passionate software development experts,  trusted by leading businesses to craft, build, and launch groundbreaking software solutions.</p>
+                    <h1>Let's help you <br /> Shape the future <span>.</span> </h1>
+                    <p>Vodzza ignites innovation by uniting a team of software development professionals and data scientists, dedicated to creating and deploying groundbreaking software solutions, tailored to yur needs.</p>
+                    
                 </div>
                 <div className="header-top-3d"></div>
             </div>

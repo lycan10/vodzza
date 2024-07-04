@@ -1,12 +1,12 @@
 .aboutus-header{
     background-color: black;
  
-    padding: 0rem 10rem 4rem;
+    padding: 0rem 10rem 7rem;
 }
 .aboutus-header-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
 }
 .aboutus-header img{
@@ -18,7 +18,7 @@
     justify-content: center;
     align-items: flex-end;
     margin: 0 0.75rem 0 0;
-    width: 37%;
+    width: 38%;
 }
 .aboutus-header-left-top-image{
     width: 216px;
@@ -42,7 +42,7 @@
 }
 .aboutus-header-right{
     margin: 6rem 0 0 0.75rem;
-    width: 63%;
+    width: 62%;
     height: 100%;
 
 }
@@ -84,48 +84,53 @@
 }
 
 .aboutus-mission-container{
-    padding: 4rem 10rem 8rem;
-    background-color: black;
+    padding: 6rem 10rem;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
 }
 .aboutus-mission{
-    border: 1px solid var(--color);
     border-radius: 1rem;
-    background-color: var(--color);
-    height: 700px;
+    background-color: black;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    padding: 0 10rem;
+    padding: 4rem 3rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .aboutus-mission h3{
-    font-family: "inter";
-    color: white;
-    font-size: 19px;
+    font-family: var(--font-family);
+    color: var(--color);
+    font-size: 16px;
     margin-bottom: 2rem;
+    font-weight: 600;
 }
 .aboutus-mission p{
-    font-family: var(--font-family);
+    font-family: "inter";
     color: white;
-    font-size: 48px;
+    font-size: 23px;
+    line-height: 2.5rem;
+    width: 100%;
     margin-bottom: 1rem;
     text-align: center;
-    font-weight: bold;
+    font-weight: 500;
 }
 .aboutus-stats-main{
     background-color: black;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
-    padding: 2rem 10rem 0rem;
+    padding: 5rem 10rem 1rem;
 }
 .aboutus-stats-title{
 margin-right: 10rem;
 }
 .aboutus-stats-title h3{
     font-family: var(--font-family);
-    color: white;
+    color: var(--color);
     font-size: 19px;
     margin-bottom: 1.5rem;
 
@@ -133,11 +138,11 @@ margin-right: 10rem;
 .aboutus-stats-title p{
     font-family: "inter";
     color: white;
-    font-size: 35px;
+    font-size: 31px;
     margin-bottom: 1rem;
-    max-width: 300px;
+    max-width: 400px;
     line-height: 3rem;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 1px;
 }
 .aboutus-stats-container{
@@ -145,12 +150,12 @@ margin-right: 10rem;
   
 }
 .aboutus-stats{
-margin-bottom: 4rem;
+margin-bottom: 5rem;
 }
 .aboutus-stats h1{
     font-family: "inter";
     color: white;
-    font-size: 55px;
+    font-size: 47px;
     margin-bottom: 1rem;
     max-width: 100%;
 }
@@ -255,49 +260,34 @@ margin-bottom: 4rem;
     }
     
     .aboutus-mission-container{
-        padding: 3rem 3rem 6rem;
-        background-color: black;
+        padding: 4rem 3rem;
+        column-gap: 20px;
     }
     .aboutus-mission{
-        border: 1px solid var(--color);
-        border-radius: 1rem;
-        background-color: var(--color);
-        height: 450px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0 7rem;
-    }
+        padding: 3rem 2rem 2rem; 
+    } 
     .aboutus-mission h3{
         font-family: "inter";
-        color: white;
         font-size: 15px;
         margin-bottom: 2rem;
     }
     .aboutus-mission p{
         font-family: var(--font-family);
         color: white;
-        font-size: 40px;
+        font-size: 23px;
         margin-bottom: 1rem;
         text-align: center;
-        font-weight: bold;
-        line-height: 3.5rem;
+        font-weight: 400;
+        line-height: 3rem;
     }
     .aboutus-stats-main{
-        background-color: black;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 1rem 3rem 0rem;
+        padding: 4rem 3rem ;
     }
     .aboutus-stats-title{
     margin-right: 10rem;
     }
     .aboutus-stats-title h3{
         font-family: var(--font-family);
-        color: white;
         font-size: 16px;
         margin-bottom: 1.5rem;
     
@@ -305,7 +295,7 @@ margin-bottom: 4rem;
     .aboutus-stats-title p{
         font-family: "inter";
         color: white;
-        font-size: 32px;
+        font-size: 23px;
         margin-bottom: 1rem;
         max-width: 300px;
         line-height: 3rem;
@@ -324,14 +314,12 @@ margin-bottom: 4rem;
         }
     .aboutus-stats h1{
         font-family: "inter";
-        color: white;
-        font-size: 48px;
+        font-size: 37px;
         margin-bottom: 1rem;
         max-width: 100%;
     }
     .aboutus-stats p{
         font-family: "inter";
-        color: white;
         font-size: 16px;
         margin-bottom: 1rem;
         max-width: 100%;
@@ -342,7 +330,7 @@ margin-bottom: 4rem;
     .aboutus-header{
         background-color: black;
      
-        padding: 0rem 2rem 3rem;
+        padding: 0rem 2rem 5rem;
     }
     .aboutus-header-container{
         display: flex;
@@ -425,10 +413,11 @@ margin-bottom: 4rem;
     }
     
     .aboutus-mission-container{
-        padding: 3rem 2rem 4rem;
-        background-color: black;
+        padding: 4rem 2rem;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
     }
-    .aboutus-mission{
+    /* .aboutus-mission{
         border: 1px solid var(--color);
         border-radius: 1rem;
         background-color: var(--color);
@@ -438,20 +427,19 @@ margin-bottom: 4rem;
         justify-content: center;
         align-items: center;
         padding: 0 3rem;
-    }
+    } */
     .aboutus-mission h3{
         font-family: "inter";
-        color: white;
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 2rem;
     }
     .aboutus-mission p{
         font-family: var(--font-family);
         color: white;
-        font-size: 38px;
+        font-size: 23px;
         margin-bottom: 1rem;
         text-align: center;
-        font-weight: bold;
+        font-weight: 400;
         line-height: 3rem;
     }
     .aboutus-stats-main{
@@ -460,14 +448,13 @@ margin-bottom: 4rem;
         flex-direction: row;
         justify-content: center;
         align-items: flex-start;
-        padding: 1rem 2rem 0rem;
+        padding: 4rem 2rem 04em;
     }
     .aboutus-stats-title{
     margin-right: 9rem;
     }
     .aboutus-stats-title h3{
         font-family: var(--font-family);
-        color: white;
         font-size: 14px;
         margin-bottom: 1.5rem;
     
@@ -475,7 +462,7 @@ margin-bottom: 4rem;
     .aboutus-stats-title p{
         font-family: "inter";
         color: white;
-        font-size: 25px;
+        font-size: 28px;
         margin-bottom: 1rem;
         max-width: 200px;
         line-height: 2.5rem;
@@ -599,98 +586,89 @@ margin-bottom: 4rem;
     }
     
     .aboutus-mission-container{
-        padding: 3rem 2rem 3rem;
-        background-color: black;
+        padding: 2rem 1rem ;
+        row-gap: 15px;
     }
     .aboutus-mission{
-        border: 1px solid var(--color);
         border-radius: 1rem;
-        background-color: var(--color);
-        height: 300px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0 1rem;
+        padding: 3rem 1rem;
     }
     .aboutus-mission h3{
         font-family: "inter";
-        color: white;
         font-size: 14px;
         margin-bottom: 1.5rem;
     }
     .aboutus-mission p{
         font-family: var(--font-family);
         color: white;
-        font-size: 23px;
+        font-size: 19px;
         margin-bottom: 1rem;
         text-align: center;
-        font-weight: bold;
+        font-weight: 400;
         line-height: 2rem;
     }
     .aboutus-stats-main{
         background-color: black;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 1rem 2rem 0rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 2rem 1rem 1rem;
     }
     .aboutus-stats-title{
     margin-right: 0;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     }
     .aboutus-stats-title h3{
         font-family: var(--font-family);
-        color: white;
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 1.5rem;
-        text-align: center;
+        text-align: left;
     
     }
     .aboutus-stats-title p{
         font-family: "inter";
         color: white;
         font-size: 33px;
-        margin-bottom: 1rem;
-        max-width: 260px;
+        margin-bottom: 0rem;
+        max-width: 100%;
         line-height: 3rem;
-        font-weight: 400;
+        font-weight: 600;
         letter-spacing: 1px;
-        text-align: center;
+        text-align: left;
     }
     .aboutus-stats-container{
         
       
     }
     .aboutus-stats{
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     }
     .aboutus-stats:last-child{
-        margin-bottom: 1rem;
+        margin-bottom: 01rem;
         }
     .aboutus-stats h1{
         font-family: "inter";
         color: white;
-        font-size: 33px;
+        font-size: 27px;
         margin-bottom: 1rem;
         max-width: 100%;
-        text-align: center;
+        text-align: left;
     }
     .aboutus-stats p{
         font-family: "inter";
         color: white;
-        font-size: 14px;
-        margin-bottom: 1rem;
+        font-size: 16px;
+        margin-bottom: 0.5rem;
         max-width: 100%;
         text-align: center;
     }
 }
-@media screen and (max-width: 350px) {
+/* @media screen and (max-width: 350px) {
     .aboutus-header{
         background-color: black;
      
@@ -797,7 +775,6 @@ margin-bottom: 4rem;
     }
     .aboutus-mission h3{
         font-family: "inter";
-        color: white;
         font-size: 12px;
         margin-bottom: 1.5rem;
     }
@@ -871,4 +848,4 @@ margin-bottom: 4rem;
         margin-bottom: 1rem;
         max-width: 100%;
     }
-}
+} */

@@ -1,20 +1,33 @@
 .cta{
-    background-color: white;
+    background-color: black;
     padding: 6rem 10rem;
 
 }
 .cta-container{
-    background-color: black;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 4rem;
 }
 .home-about-title{
 
+}
+.cta-form-title{
+    width: 100%;
+}
+.cta-form-title h1{
+    font-family: "inter";
+    color: var(--color);
+    font-size: 43px;
+    margin-bottom: 1rem;
+}
+.cta-form-title p{
+    font-family: "inter";
+    color: rgb(143, 143, 143);
+    font-size: 16px;
 }
 .cta-form-container{
     display: grid;
@@ -28,10 +41,11 @@
 }
 .form-left-input{
     width: 100%;
-    background-color: azure;
+    background-color: rgb(236, 236, 236);
     margin-bottom: 1rem;
     border-radius: 0.5rem;
     padding-left: 1rem;
+    outline: none;
 }
 .form-left-input:last-child{
     margin-bottom: 0rem;
@@ -56,6 +70,7 @@
         color: rgb(188, 188, 188);
         max-width: 600px;
         font-size: 14px;
+        outline: none;
        
 
 }
@@ -65,9 +80,10 @@
 .form-left-textarea{
     width: 100%;
     height: 100%;
-    background-color: azure;
+    background-color: rgb(236, 236, 236);
     border-radius: 0.5rem;
     padding: 1.3rem 1rem;
+    outline: none;
 }
 .form-left-textarea textarea{
     width: 100%;
@@ -78,6 +94,7 @@
     color: rgb(188, 188, 188);
     max-width: 600px;
     font-size: 14px;
+    outline: none;
 }
 .cta-footer-container{
     display: flex;
@@ -88,7 +105,7 @@
 }
 .cta-footer-container h1{
     font-family: "inter";
-    color: rgb(188, 188, 188);
+    color: rgb(143, 143, 143);
     max-width: 600px;
     font-size: 14px;
 }
@@ -103,7 +120,7 @@
 }
 .cta-footer-button p{
     font-family: "inter";
-    color: black;
+    color: white;
     max-width: 600px;
     font-size: 14px;
     padding: 0;
@@ -112,12 +129,10 @@
 
 @media screen and (max-width: 1200px) {
     .cta{
-        background-color: white;
         padding: 6rem 3rem;
     
     }
     .cta-container{
-        background-color: black;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -141,7 +156,6 @@
     }
     .form-left-input{
         width: 100%;
-        background-color: azure;
         margin-bottom: 1rem;
         border-radius: 0.5rem;
         padding-left: 1rem;
@@ -166,7 +180,6 @@
             background-color: transparent;
             border: none;
             font-family: "inter";
-            color: rgb(188, 188, 188);
             max-width: 600px;
             font-size: 14px;
            
@@ -178,7 +191,6 @@
     .form-left-textarea{
         width: 100%;
         height: 100%;
-        background-color: azure;
         border-radius: 0.5rem;
         padding: 1.3rem 1rem;
     }
@@ -188,7 +200,6 @@
         background-color: transparent;
         border: none;
         font-family: "inter";
-        color: rgb(188, 188, 188);
         max-width: 600px;
         font-size: 14px;
     }
@@ -201,7 +212,6 @@
     }
     .cta-footer-container h1{
         font-family: "inter";
-        color: rgb(188, 188, 188);
         max-width: 600px;
         font-size: 14px;
     }
@@ -216,7 +226,6 @@
     }
     .cta-footer-button p{
         font-family: "inter";
-        color: black;
         max-width: 600px;
         font-size: 14px;
         padding: 0;
@@ -226,19 +235,17 @@
 
 @media screen and (max-width: 800px) {
     .cta{
-        background-color: white;
-        padding: 4rem 3rem;
+        padding: 4rem 2rem;
     
     }
     .cta-container{
-        background-color: black;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         border-radius: 1rem;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        padding: 3rem 2rem;
+        padding: 2rem;
     }
     .home-about-title{
     }
@@ -246,19 +253,25 @@
     .cta-title{
         max-width: 500px !important;
     }
+    .cta-form-title h1{
+        font-size: 33px;
+    }
+    .cta-form-title p{
+        font-size: 16px;
+        line-height: 1.5rem;
+    }
     .cta-form-container{
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
         width: 100%;
-        margin: 3rem 0;
+        margin: 1.5rem 0;
     }
     .form-left{
     
     }
     .form-left-input{
         width: 100%;
-        background-color: azure;
         margin-bottom: 1rem;
         border-radius: 0.5rem;
         padding-left: 1rem;
@@ -283,7 +296,6 @@
             background-color: transparent;
             border: none;
             font-family: "inter";
-            color: rgb(188, 188, 188);
             max-width: 600px;
             font-size: 14px;
            
@@ -295,7 +307,6 @@
     .form-left-textarea{
         width: 100%;
         height: 100%;
-        background-color: azure;
         border-radius: 0.5rem;
         padding: 1.3rem 1rem;
     }
@@ -305,7 +316,6 @@
         background-color: transparent;
         border: none;
         font-family: "inter";
-        color: rgb(188, 188, 188);
         max-width: 600px;
         font-size: 14px;
     }
@@ -318,7 +328,6 @@
     }
     .cta-footer-container h1{
         font-family: "inter";
-        color: rgb(188, 188, 188);
         max-width: 600px;
         font-size: 14px;
     }
@@ -333,7 +342,6 @@
     }
     .cta-footer-button p{
         font-family: "inter";
-        color: black;
         max-width: 600px;
         font-size: 14px;
         padding: 0;
@@ -341,21 +349,19 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
     .cta{
-        background-color: white;
-        padding: 3rem 2rem;
+        padding: 2rem 1rem;
     
     }
     .cta-container{
-        background-color: black;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         border-radius: 1rem;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        padding: 3rem 1rem;
+        padding: 1.5rem 1rem;
     }
     .home-about-title{
     }
@@ -364,19 +370,24 @@
         font-size: 13px !important;
         max-width: 300px !important;
     }
+    .cta-form-title h1{
+        font-family: "inter";
+        color: var(--color);
+        font-size: 33px;
+        margin-bottom: 0.5rem;
+    }
     .cta-form-container{
         display: grid;
         grid-template-columns: 1fr;
         gap: 20px;
         width: 100%;
-        margin: 2rem 0;
+        margin: 0rem 0 1.5rem;
     }
     .form-left{
     
     }
     .form-left-input{
         width: 100%;
-        background-color: azure;
         margin-bottom: 1rem;
         border-radius: 0.5rem;
         padding-left: 1rem;
@@ -401,7 +412,6 @@
             background-color: transparent;
             border: none;
             font-family: "inter";
-            color: rgb(188, 188, 188);
             max-width: 600px;
             font-size: 14px;
            
@@ -413,7 +423,6 @@
     .form-left-textarea{
         width: 100%;
         height: 100%;
-        background-color: azure;
         border-radius: 0.5rem;
         padding: 1.3rem 1rem;
     }
@@ -423,7 +432,6 @@
         background-color: transparent;
         border: none;
         font-family: "inter";
-        color: rgb(188, 188, 188);
         max-width: 600px;
         font-size: 14px;
     }
@@ -431,13 +439,12 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
         width: 100%;
      
     }
     .cta-footer-container h1{
         font-family: "inter";
-        color: rgb(188, 188, 188);
         max-width: 600px;
         font-size: 13px;
         text-align: center;
@@ -452,10 +459,15 @@
         border-radius: 0.5rem;
         cursor: pointer;
         margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
     }
     .cta-footer-button p{
         font-family: "inter";
-        color: black;
         max-width: 600px;
         font-size: 14px;
         padding: 0;
@@ -464,7 +476,6 @@
 }
 @media screen and (max-width: 350px) {
     .cta{
-        background-color: white;
         padding: 2rem 1rem;
     
     }
