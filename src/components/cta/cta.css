@@ -9,19 +9,32 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 1rem;
-    padding: 4rem;
+    border-radius: 1.5rem;
+    padding: 2rem;
 }
 .home-about-title{
 
 }
+button{
+    outline: none;
+    border: none;
+}
+
+input{
+    background-color: transparent !important;
+    color: black !important;
+}
+textarea{
+    color: black !important;
+}
+
 .cta-form-title{
     width: 100%;
 }
 .cta-form-title h1{
-    font-family: "inter";
+    font-family: var(--font-family);
     color: var(--color);
-    font-size: 43px;
+    font-size: 33px;
     margin-bottom: 1rem;
 }
 .cta-form-title p{
@@ -34,7 +47,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     width: 100%;
-    margin: 3rem 0;
+    margin: 2rem 0;
 }
 .form-left{
 
@@ -71,6 +84,7 @@
         max-width: 600px;
         font-size: 14px;
         outline: none;
+        background: transparent !important;
        
 
 }
@@ -104,7 +118,7 @@
     width: 100%;
 }
 .cta-footer-container h1{
-    font-family: "inter";
+    font-family: var(--font-family);
     color: rgb(143, 143, 143);
     max-width: 600px;
     font-size: 14px;
@@ -137,9 +151,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border-radius: 1rem;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        padding: 4rem;
+        padding: 2rem;
     }
     .home-about-title{
     
@@ -149,7 +162,7 @@
         grid-template-columns: 1fr 1fr;
         gap: 20px;
         width: 100%;
-        margin: 3rem 0;
+        margin: 1rem 0 2rem;
     }
     .form-left{
     
@@ -243,7 +256,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border-radius: 1rem;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         padding: 2rem;
     }
@@ -254,7 +266,7 @@
         max-width: 500px !important;
     }
     .cta-form-title h1{
-        font-size: 33px;
+        font-size: 30px;
     }
     .cta-form-title p{
         font-size: 16px;
@@ -265,7 +277,7 @@
         grid-template-columns: 1fr 1fr;
         gap: 20px;
         width: 100%;
-        margin: 1.5rem 0;
+        margin: 1rem 0 1.5rem;
     }
     .form-left{
     
@@ -359,7 +371,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border-radius: 1rem;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         padding: 1.5rem 1rem;
     }
@@ -371,9 +382,8 @@
         max-width: 300px !important;
     }
     .cta-form-title h1{
-        font-family: "inter";
         color: var(--color);
-        font-size: 33px;
+        font-size: 23px;
         margin-bottom: 0.5rem;
     }
     .cta-form-container{

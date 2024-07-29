@@ -46,7 +46,6 @@ const Portfolio = () => {
         end: () => `+=${containerHeight - titleHeight}`,
         pin: true,
         pinSpacing: false,
-        markers: true, // Remove or set to false in production
       });
     }
 
@@ -66,7 +65,6 @@ const Portfolio = () => {
         start: 'top 30%',
         end: 'bottom top',
         scrub: true,
-        markers: true,
       },
     });
 
@@ -78,12 +76,9 @@ const Portfolio = () => {
         start: 'top 30%',
         end: 'bottom top',
         scrub: true,
-        markers: true,
       },
     });
   }, []);
-
-
 
 
 
@@ -161,7 +156,7 @@ const Portfolio = () => {
   <div className='services-top'>
     <div className='iframe-container frame-mobile'>
       <iframe
-        src='http://localhost:3000/'
+        src='https://theunburden.com'
         title='Website Demo'
         width={'100%'}
         height={'80%'}
@@ -177,8 +172,8 @@ const Portfolio = () => {
       </div>
     </div>
     <div className='services-bottom'>
-      <PortfolioCards header={'The Marbles'} title={'Web Dev'} img={p2} body={'Empowering children in West Africa through education.'} />
-      <PortfolioCards header={'Total Trailer'} title={'Saas'} img={p1} body={'A premium e-commerce website offering top-tier online shopping experience.'} />
+      <PortfolioCards header={'The Marbles'} title={'Web Dev'} img={p2} body={'Empowering children in West Africa through education.'} goTo={"https://themarblesnigeria.org"} />
+      <PortfolioCards header={'Total Trailer'} title={'Saas'} img={p1} body={'A premium e-commerce website offering top-tier online shopping experience.'} goTo={"https://totaltrailerparts.com"} />
     </div>
   </div>
   <div className='services-top'>
@@ -200,8 +195,8 @@ const Portfolio = () => {
       </div>
     </div>
     <div className='services-bottom'>
-      <PortfolioCards header={'Your Connerstore'} title={'Saas'} img={p4} body={'Your ultimate one-stop shop for all retail needs.'} />
-      <PortfolioCards header={'Fafaeda NGO'} title={'Web Dev'} img={p3} body={'Supporting underprivileged families in West Africa through dedicated web resources.'} />
+      <PortfolioCards header={'Your Connerstore'} title={'Saas'} img={p4} body={'Your ultimate one-stop shop for all retail needs.'} goTo={"https://yourconnerstore.com"} />
+      <PortfolioCards header={'Fafaeda NGO'} title={'Web Dev'} img={p3} body={'Supporting underprivileged families in West Africa through dedicated web resources.'} goTo={"https://fafaeda.com"} />
     </div>
   </div>
 </div>

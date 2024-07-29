@@ -28,7 +28,7 @@
 .portfolio-card-title{
     border: 1px solid var(--color);
     border-radius: 1rem;
-    padding: 0.6rem 0.7rem 0.7rem;
+    padding: 0.7rem 0.7rem 0.75rem;
     margin-left: 1rem;
 }
 .portfolio-card-title p{
@@ -39,6 +39,7 @@
     font-weight: 200px;
     text-align: center;
     margin: 0;
+    padding: 0;
 }
 .portfolio-card-description {
 }
@@ -54,6 +55,25 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+}
+.card-button{
+    cursor: pointer;
+    background-color: var(--color);
+    color: white;
+    transition: all 0.3s linear;
+}
+.card-button p{
+    color: white;
+}
+a{
+  text-decoration: none !important;  
+}
+.card-button:hover {
+   background-color: transparent;
+   transition: all 0.3s linear;
+}
+.card-button:hover p{
+    color: white;
 }
 
 @media screen and (max-width: 1200px) {

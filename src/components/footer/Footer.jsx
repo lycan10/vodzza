@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";
 import { FaTiktok } from "react-icons/fa";
 
-import logo from "../../assets/brand-image.png"
+import logo from "../../assets/footer-logo.png"
 
 const Footer = () => {
 
@@ -30,7 +30,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footer-right">
-                <p>© {date.getFullYear()} Vodzza.</p>
+                <p>© {date.getFullYear()}. All rights reserved. Vodzza.</p>
             </div>
         </div>
     </div>

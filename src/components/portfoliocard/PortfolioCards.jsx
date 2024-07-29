@@ -2,8 +2,14 @@ import React from 'react'
 import icon from "../../assets/a1.jpg"
 
 import "./portfoliocards.css"
+import { Link } from 'react-router-dom'
 
-const PortfolioCards = ({title, img, body, header}) => {
+const PortfolioCards = ({title, img, body, header, goTo}) => {
+
+    const handleClick = () => {
+        window.open(goTo, '_blank', 'noopener,noreferrer');
+      };
+
   return (
     <div className='portfolio-card '>
     <div className='portfolio-card-container'>
@@ -13,6 +19,10 @@ const PortfolioCards = ({title, img, body, header}) => {
             <div className="portfolio-card-title">
                 <p>{title}</p>
             </div>
+                <div className="portfolio-card-title card-button" onClick={handleClick}>
+                    <p >visit</p>
+                </div>
+            
         </div>
         <div className="portfolio-card-description">
             <p>{body}</p>

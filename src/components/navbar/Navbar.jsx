@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-import logo from "../../assets/logo/logo2.png"
+import logo from "../../assets/navbar-logo.png"
 
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -61,7 +61,7 @@ const Navbar = () => {
                 <li onClick={navigateToQuote}>Request a quote</li>
               </ul>
             </div>
-            <button class="btn draw-border">Get in touch</button>
+            <button onClick={navigateToQuote} class="btn draw-border">Get in touch</button>
             {/* <div className="btn draw-border">
               <p>Get in touch</p>
             </div> */}

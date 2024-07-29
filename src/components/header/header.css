@@ -7,16 +7,23 @@
     padding: 4rem 10rem 6rem;
 }
 .header-top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
 
 }
 .header-top-text{
-    padding: 5rem 0 7rem;
+    padding: 0rem 0 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 .header-top-text h1{
     font-family: var(--font-family);
-    color: white;
-    font-size: 63px;
-    line-height: 5.5rem;
+    color: var(--color);
+    font-size: 60px;
+    line-height: 5rem;
     margin-bottom: 1.5rem;
 
 }.header-top-text p{
@@ -53,6 +60,18 @@
     height: 50px;
     margin-right: 8rem;
 }
+.header-top-3d{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -5rem;
+}
+canvas{
+    width:450px !important;
+    height: 400px !important;
+}
 
 @media screen and (max-width: 1200px) {
     .header-contatiner{
@@ -63,17 +82,35 @@
     .header-top-text{
         padding: 3rem 0 5rem;
     }
+    .header-top{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+    
+    }
+    .header-top-3d{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: -2rem;
+    }
+    canvas{
+        width: 450px !important;
+        height: 450px !important;
+    }
     .header-top-text h1{
         font-family: var(--font-family);
         color: white;
-        font-size: 57px;
+        font-size: 55px;
         line-height: 4.5rem;
         margin-bottom: 1.5rem;
     
     }.header-top-text p{
         font-family: "inter";
         color: rgb(188, 188, 188);
-        max-width: 600px;
+        max-width: 400px;
         font-size: 14px;
         line-height: 1.5rem;
         font-weight: 200px;
@@ -116,12 +153,50 @@
     .header-top-text{
         padding: 2rem 0 3rem;
     }
+    .header-top{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 0px;
+        row-gap: 40px;
+    
+    }
+    .header-top-3d{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 0rem;
+    }
+    .header-top-3d > div {
+        width: auto; /* Ensure the Spline component's parent takes its natural width */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* Optional: Add this if the Spline component needs to be centered within its own parent */
+    .header-top-3d > div > div {
+        margin: 0 auto;
+    }
+    canvas{
+        width: 500px !important;
+        height: 500px !important;
+    }
+    .header-top-text{
+        padding: 0rem 0 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .header-top-text h1{
         font-family: var(--font-family);
         color: white;
         font-size: 47px;
         line-height: 4rem;
         margin-bottom: 1.5rem;
+        text-align: center;
     
     }.header-top-text p{
         font-family: "inter";
@@ -130,6 +205,7 @@
         font-size: 14px;
         line-height: 1.5rem;
         font-weight: 200px;
+        text-align: center;
     }
     .header-top-text span{
         color:  var(--color);
@@ -164,16 +240,46 @@
     .header-contatiner{
         /* background-color: rgb(28, 28, 28); */
         background-color: black;
-        padding: 1rem 1rem 4rem;
+        padding: 2rem 1rem 4rem;
     }
     .header-top-text{
         padding: 2rem 0 3rem;
+    }
+    .header-top{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 0px;
+        row-gap: 0px;
+    
+    }
+    .header-top-3d{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 0rem;
+    }
+    .header-top-3d > div {
+        width: auto; /* Ensure the Spline component's parent takes its natural width */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* Optional: Add this if the Spline component needs to be centered within its own parent */
+    .header-top-3d > div > div {
+        margin: 0 auto;
+    }
+    canvas{
+        width: 400px !important;
+        height: 400px !important;
     }
     .header-top-text h1{
         font-family: var(--font-family);
         color: white;
         font-size: 37px;
-        line-height: 3.5rem;
+        line-height: 3.3rem;
         margin-bottom: 1.5rem;
     
     }
@@ -182,7 +288,7 @@
         color: rgb(188, 188, 188);
         max-width: 600px;
         font-size: 14px;
-        line-height: 1.4rem;
+        line-height: 1.7rem;
         font-weight: 200px;
     }
     .header-top-text span{
@@ -213,12 +319,22 @@
     }
     
 }
+@media screen and (max-width: 390px) {
+    canvas{
+        width: 350px !important;
+        height: 350px !important;
+    }
+}
 
 @media screen and (max-width: 350px) {
     .header-business-logos img{
         width: 25px;
         height: 25px;
         margin-right: 1rem;
+    }
+    canvas{
+        width: 300px !important;
+        height: 300px !important;
     }
         .header-contatiner{
             /* background-color: rgb(28, 28, 28); */
@@ -229,7 +345,12 @@
             font-family: var(--font-family);
             color: white;
             font-size: 27px;
-            margin-bottom: 1rem;
+            line-height: 2.5rem;
+            margin-bottom: 1.5rem;
+            width: 100%;
         
+        }
+        .slick-arrow{
+            display: none !important;
         }
 }

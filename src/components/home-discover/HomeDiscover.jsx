@@ -47,6 +47,12 @@ const HomeDiscover = () => {
     ]
   };
 
+
+  const navigateToPortfolio = () => {
+    const newUrl = "/portfolio"
+    window.location.href = newUrl
+  }
+
   return (
     <div className='homediscover'>
       <div className='homediscover-container'>
@@ -65,7 +71,7 @@ const HomeDiscover = () => {
             </Slider>
           </div>
         </div>
-        <div className="home-discovery-button">
+        <div className="home-discovery-button" onClick={navigateToPortfolio}>
           <p>Learn more</p>
           <FaArrowRightLong className='home-about-icon discover-icon' />
         </div>

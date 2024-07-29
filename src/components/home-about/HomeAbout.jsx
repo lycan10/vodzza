@@ -14,6 +14,12 @@ import d4 from "../../assets/d6.jpg"
 
 
 const HomeAbout = () => {
+
+    const navigateToAboutUs = () => {
+        const newUrl = "/about"
+        window.location.href = newUrl
+      }
+
   return (
     <div>
         <div className="home-about-container">
@@ -21,7 +27,7 @@ const HomeAbout = () => {
                 <div className="home-about-title">
                     <h1>We tailor our team of creatives to meet your needs. </h1>
                 </div>
-                <div className="home-about-cards-button">
+                <div className="home-about-cards-button" onClick={navigateToAboutUs}>
                 <p>Learn more</p>
                 <FaArrowRightLong className='home-about-icon' />
             </div>
